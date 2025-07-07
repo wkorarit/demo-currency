@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # demo-currency-rate
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -33,3 +34,6 @@ npm run build
 ```sh
 npm run lint
 ```
+=======
+# demo-currency
+>>>>>>> f93e7e5aabcef512c6b318a7c9dcaa8f4eb6bf7e
