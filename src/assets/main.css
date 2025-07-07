@@ -1,0 +1,17 @@
+@import './scss/styles.scss';
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: #333333;
+}
+
+body {
+  background-color: #F8F9FA;
+}
+
+
