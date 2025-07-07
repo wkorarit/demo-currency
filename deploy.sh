@@ -19,7 +19,7 @@ git add -A
 git commit -m "Deploy to GitHub Pages"
 
 # Push the changes to the gh-pages branch of your repository
-git push -f https://github.com/wkorarit/demo-currency.git main:gh-pages
+git push -f https://github.com/wkorarit/demo-currency.git master:gh-pages
 
 # Go back to the root directory
 cd -
