@@ -13,7 +13,7 @@ const goTo = (key) => {
     demo: () => router.push('/demo'),
     resume: () => {
       const link = document.createElement('a')
-      link.href = '/files/resume.pdf'
+      link.href = '/resume.pdf'
       link.download = 'Korarit Resume.pdf'
       document.body.append(link)
       link.click()
