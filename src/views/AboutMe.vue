@@ -13,13 +13,13 @@ const goTo = (key) => {
     demo: () => router.push('/demo'),
     resume: () => {
       const link = document.createElement('a')
-      link.href = '/demo-currency/resume.pdf'
+      link.href = `${import.meta.env.BASE_URL}resume.pdf`
       link.download = 'Korarit Resume.pdf'
       document.body.append(link)
       link.click()
       document.body.removeChild(link)
     },
-    gitHub: () => window.open('https://github.com/wkorarit', '_blank'),
+    gitHub: () => window.open('https://github.com/wkorarit/demo-currency', '_blank'),
     linkedIn: () => window.open('https://www.linkedin.com/in/korarit-p', '_blank'),
   }
 

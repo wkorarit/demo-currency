@@ -1,18 +1,17 @@
 # Currency Rate Dashboard
 
-This project is a **Currency Rate Dashboard** built with **Vue 3**, **Tailwind CSS**, and **PrimeVue**. It allows users to view and compare exchange rates between various currencies with real-time data fetched from the **Frankfurter API**.
+This project is a **Currency Rate Dashboard** built with **Vue 3**, **Tailwind CSS**, and **PrimeVue**. It allows users to view and compare exchange rates between various currencies fetched from the **Frankfurter API**.
 
-The dashboard displays exchange rates in an easy-to-read format with features such as **currency comparison**, **percentage change** for the week and month, and an interactive **line chart**.
+The dashboard displays exchange rates in an easy-to-read format with features such as **currency comparison**, **percentage change** for the week and month, and **line chart**.
 
 ---
 
 ## Features
 
 - **Currency Selector**: Choose the base currency from a list of supported currencies.
-- **Real-Time Data**: Fetches up-to-date currency rates from the Frankfurter API.
 - **Currency Comparison**: Compare the selected currency with the THB (Thai Baht).
 - **Percentage Change**: Shows percentage changes for the week and month.
-- **Interactive Line Chart**: Visual representation of the currency rates over time.
+- **Line Chart**: Visual representation of the currency rates over time.
 - **Responsive Design**: Fully responsive, optimized for both mobile and desktop views.
 
 ---
