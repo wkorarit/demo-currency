@@ -13,8 +13,8 @@ const goTo = (key) => {
     demo: () => router.push('/demo'),
     resume: () => {
       const link = document.createElement('a')
-      link.href = `${import.meta.env.BASE_URL}resume.pdf`
-      link.download = 'Korarit Resume.pdf'
+      link.href = `${import.meta.env.BASE_URL}Korarit_Software_Developer_Resume.pdf`
+      link.download = 'Korarit_Software_Developer_Resume.pdf'
       document.body.append(link)
       link.click()
       document.body.removeChild(link)
