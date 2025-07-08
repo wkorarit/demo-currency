@@ -41,7 +41,7 @@ onMounted(async () => {
   calculateValue()
   setTimeout(() => {
     showContent.value = true
-  }, 1000)
+  }, 300)
 })
 
 const fetchCurrencyData = async () => {
@@ -103,8 +103,12 @@ const swapCurrency = () => {
 
 watch(selectedCurrency, async (newVal, oldVal) => {
   if (newVal !== oldVal) {
+    showContent.value = false
     await fetchCurrencyData()
     calculateValue()
+    setTimeout(() => {
+      showContent.value = true
+    }, 300)
   }
 })
 
