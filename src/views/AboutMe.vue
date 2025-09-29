@@ -14,7 +14,7 @@ const goTo = (key) => {
     resume: () => {
       const link = document.createElement('a')
       link.href = `${import.meta.env.BASE_URL}Resume_Korarit_Frontend_Developer.pdf`
-      link.download = 'Korarit_Software_Developer_Resume.pdf'
+      link.download = 'Korarit_Frontend_Developer_Resume.pdf'
       document.body.append(link)
       link.click()
       document.body.removeChild(link)
